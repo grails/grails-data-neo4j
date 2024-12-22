@@ -11,8 +11,8 @@ jobs:
     outputs:
       release_version: ${{ steps.release_version.outputs.value }}
     env:
-      GIT_USER_NAME: puneetbehl
-      GIT_USER_EMAIL: behlp@unityfoundation.io
+      GIT_USER_NAME: grails-build
+      GIT_USER_EMAIL: grails-build@users.noreply.github.com
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
